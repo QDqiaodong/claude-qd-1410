@@ -1,0 +1,29 @@
+:root {
+  /* 蓝绿主色 #4DB6AC —— 金融押运公司 */
+  --primary: #4DB6AC;
+  --primary-deep: #3E928A;
+  --primary-soft: #82CCC5;
+  --primary-wash: #EDF8F7;
+  --ink: #1F3B38;
+  --muted: #5E8A85;
+  --line: #CDE6E3;
+  --bg: #F2F8F7;
+
+  --el-color-primary: #4DB6AC;
+  --el-color-primary-light-3: #82CCC5;
+  --el-color-primary-light-5: #A6DBD6;
+  --el-color-primary-light-7: #CAE9E6;
+  --el-color-primary-light-8: #DBF0EE;
+  --el-color-primary-light-9: #EDF8F7;
+  --el-color-primary-dark-2: #3E928A;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
